@@ -1,0 +1,48 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f0f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background: url('hellokitty.jpeg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #000000;
+}
+
+.btn-danger.w-100 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'arial';
+    font-size: 1.50rem;
+    background-color: #fd00cb;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #000000;
+}
+
+.btn-light.w-100 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'arial';
+    font-size: 1.50rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-control.text-end {
+    font-family: 'arial';
+    font-size: 2.50rem;
+    margin-bottom: 30px;
+    text-align: right;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
